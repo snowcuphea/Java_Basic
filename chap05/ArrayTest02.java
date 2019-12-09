@@ -26,6 +26,16 @@ public class ArrayTest02 {
 		
 		System.out.println(arr[1]);
 		
+		//randArr의 초기화
+		randArr[0] = new Random(); //randArr 가 Random타입 배열이기 때문에 Random타입으로 작업
+		randArr[1] = new Random(); //
+		
+		for(int i=0;i<randArr.length;i++) {
+			System.out.println(randArr[i]);//랜덤객체 할당하고 있는 주소값 출력된다.
+			//할당 안한 것은 초기값인 null이 나온다.
+			//주소값이 할당되지 않은 것은 무조건 null
+		}
+		
 
 	}
 
