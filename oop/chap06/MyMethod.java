@@ -37,5 +37,15 @@ public class MyMethod {
 		}
 		System.out.println();
 	}
+	
+	public void display(int count, String Str) { 
+		//매개변수의 타입 순서가 다르기 때문에, 똑같은 이름으로 메소드 생성 가능하다. 
+		//동일한 이름의 메소드를 여러 개 정의해서 사용할 수 있다. 단, 매개변수 타입이나 매개변수 개수는 달라야 한다
+		// => 메소드 오버로딩
+		for(int i = 1;i<10;i++) {
+			System.out.print("*");
+		}
+		
+	}
 
 }
