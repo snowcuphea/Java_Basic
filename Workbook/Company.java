@@ -1,23 +1,24 @@
 package Workbook;
 
 public class Company {
-	private double salary;
-	private double annualIncome;
-	private double bonus;
+	private int salary; //기본급
+	private double annualIncome; //연소득
+	private double afterTaxAnnualIncome; //세금 공제 후 연소득의 총합
+	private double bonus; 
 	private double afterTaxBonus;
 	
 	public Company() {
 		
 	}
-	public Company(double salary) {
+	public Company(int salary) {
 		this.salary = salary;
 	}
 	
-	public double getSalary() {
+	public int getSalary() {
 		return salary;
 	}
 
-	public void setSalary(double salary) {
+	public void setSalary(int salary) {
 		this.salary = salary;
 	}
 
