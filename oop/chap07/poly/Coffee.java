@@ -32,8 +32,13 @@ public class Coffee extends Beverage {
 			setPrice(10);
 			
 		}
-		//setAmount(1);
 		
+		//setAmount(1);
+//		//static멤버를 액세스 하기 위해서 static메소드를 정의해서 액세스한다. 
+//		public static int getAmount() {
+//			return amount;
+//		}
+//		
 		
 
 
