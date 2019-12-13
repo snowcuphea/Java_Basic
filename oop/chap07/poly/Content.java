@@ -1,0 +1,40 @@
+package oop.chap07.poly;
+
+public abstract class Content {
+	String title;
+	int price;
+	
+	public Content() {
+		
+	}
+	
+	public Content(String title) {
+		this.title = title;
+	
+	}
+	public abstract void totalPrice(); //얘가 상위 클래스니까,
+	// 차일드 클래스의 totalPrice()를 오버라이딩 해서 사용할 예정이다. 
+
+
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public int getPrice() {
+		return price;
+	}
+
+	public void setPrice(int price) {
+		this.price = price;
+	}
+
+	public void show() {
+		System.out.println(getTitle() + "의 가격은 " + getPrice()+"원 입니다.");
+	}
+	
+
+}
