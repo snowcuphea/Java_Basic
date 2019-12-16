@@ -57,7 +57,7 @@ public class AbstractTest {
 
 	public static void main(String[] args) {
 		
-		AbstractSuper obj = new AbstractSuper();
+		//AbstractSuper obj = new AbstractSuper();
 		//추상클래스는 객체생성이 불가능하다!!!!
 		
 
