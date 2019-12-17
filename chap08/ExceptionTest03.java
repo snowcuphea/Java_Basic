@@ -30,7 +30,7 @@ public class ExceptionTest03 {
 			System.out.println("나눌 숫자를 입력하세요: ");
 			int num2 = key.nextInt();
 			System.out.println("결과:" + (num1/num2));
-			
+		
 		}catch(InputMismatchException e) {
 			System.out.println("문자를입력할 수 없습니다.");
 		}catch(ArithmeticException e) {
@@ -39,7 +39,6 @@ public class ExceptionTest03 {
 			System.out.println("예외발생");
 			System.out.println("예외메시지:" + e.getMessage());
 		}
-		
 		
 		
 	}
